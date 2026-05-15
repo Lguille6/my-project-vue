@@ -33,4 +33,5 @@ ehthumbs.db
 Thumbs.db
 .dccache
 
-.env
+.env*
+!.env.example
