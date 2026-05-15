@@ -1,7 +1,12 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
+import NavMenu from "@/components/NavMenu.vue";
 </script>
 
 <template>
-  <HelloWorld />
+  <div class="flex min-h-screen flex-col">
+    <NavMenu />
+    <main class="flex flex-1 flex-col">
+      <RouterView />
+    </main>
+  </div>
 </template>
